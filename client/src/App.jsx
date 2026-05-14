@@ -345,7 +345,7 @@ export default function App() {
 
       const response =
         await fetch(
-          "http://localhost:5000/api/send-bill",
+          "https://billing-app-ham3.onrender.com/api/send-bill",
           {
             method: "POST",
 
@@ -406,7 +406,7 @@ export default function App() {
 
         const response =
           await fetch(
-            "http://localhost:5000/api/send-whatsapp",
+            "https://billing-app-ham3.onrender.com/api/send-whatsapp",
             {
 
               method: "POST",
